@@ -75,10 +75,12 @@ Color::Convert::ANSIColor -
 =head1 SYNOPSIS
 
   use Color::Convert::ANSIColor;
+  my $color = Color::Convert::ANSIColor->new();
+  my $ansi_color_ref = $color->from_rgb({ r => $r, g => $g, b => $b });
 
 =head1 DESCRIPTION
 
-Color::Convert::ANSIColor is
+Color::Convert::ANSIColor is converting from rgb to ANSIColor
 
 =head1 AUTHOR
 

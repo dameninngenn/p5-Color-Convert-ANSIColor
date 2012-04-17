@@ -3,7 +3,6 @@
 use strict;
 use Test::More;
 use Readonly;
-use lib 'lib';
 
 Readonly my $rgb1 => {
     r => 255,

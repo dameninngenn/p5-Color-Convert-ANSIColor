@@ -2,19 +2,9 @@ This is Perl module Color::Convert::ANSIColor.
 
 INSTALLATION
 
-Color::Convert::ANSIColor installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
-
-    % cpan Color::Convert::ANSIColor
-
-Download it, unpack it, then build it as per the usual:
-
-    % perl Makefile.PL
-    % make && make test
-
-Then install it:
-
-    % make install
+    % git clone git://github.com/dameninngenn/p5-Color-Convert-ANSIColor.git
+    % cd p5-Color-Convert-ANSIColor
+    % cpanm .
 
 DOCUMENTATION
 
